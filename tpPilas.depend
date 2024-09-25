@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1727297696 source:c:\users\usuario\onedrive\desktop\tppilas\ejercicio6.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"pilas.h"
+	"tipo_elemento.h"
+	"ejercicio6.h"
+
+1727296638 source:c:\users\usuario\onedrive\desktop\tppilas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"pilas.h"
+	"tipo_elemento.h"
+	"ejercicio6.h"
+
+1727205062 source:c:\users\usuario\onedrive\desktop\tppilas\tipo_elemento.c
+	"tipo_elemento.h"
+	<stdlib.h>
+
+1727205028 c:\users\usuario\onedrive\desktop\tppilas\tipo_elemento.h
+
+1727210313 source:c:\users\usuario\onedrive\desktop\tppilas\pilas_punteros.c
+	"pilas.h"
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1727210288 c:\users\usuario\onedrive\desktop\tppilas\pilas.h
+	<stdbool.h>
+	"tipo_elemento.h"
+
+1727295130 c:\users\usuario\onedrive\desktop\tppilas\ejercicio6.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1727210391 source:c:\users\usuario\onedrive\desktop\tppilas\pilas_arreglos.c
+	"pilas.h"
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1727290707 source:c:\users\usuario\onedrive\desktop\tppilas\ej6_iterativo.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"pilas.h"
+	"tipo_elemento.h"
+	"ej6_iterativo.h"
+
+1727289758 c:\users\usuario\onedrive\desktop\tppilas\ej6_iterativo.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1727292748 source:c:\users\usuario\onedrive\desktop\tppilas\ej6_recursivo.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"pilas.h"
+	"tipo_elemento.h"
+	"ej6_recursivo.h"
+
+1727291108 c:\users\usuario\onedrive\desktop\tppilas\ej6_recursivo.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
