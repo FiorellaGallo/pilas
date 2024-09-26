@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <ctype.h>
 #include "pilas.h"
 #include "tipo_elemento.h"
 #include "ejercicio6.h"
