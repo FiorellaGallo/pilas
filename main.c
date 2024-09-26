@@ -34,7 +34,7 @@ int main()
 
         int num;
         bool verif;
-        int dato;
+        int eliminar;
 
         Pila pila1 = p_crear();
         do{
@@ -58,7 +58,7 @@ int main()
         p_mostrar(pila1);
 
         printf("\nPILA RESULTADO ITERATIVO\n");
-        pilaIterativa(pila1, dato);
+        pilaIterativa(pila1, eliminar);
 
         printf("\nPILA ORIGINAL CONSERVADA\n");
         p_mostrar(pila1);
