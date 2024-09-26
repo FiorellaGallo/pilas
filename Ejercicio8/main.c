@@ -7,7 +7,7 @@
 Pila cargarPila(Pila pila){
     int d;
     while(!p_es_llena(pila)){
-        printf("Ingrese un valor o -1 para salir: \n");
+        printf("Ingrese un valor para apilar o -1 para salir: \n");
         while(scanf("%d", &d) != 1) {
             printf("Error. Vuelva a ingresar el numero \n");
             while(getchar() != '\n');
