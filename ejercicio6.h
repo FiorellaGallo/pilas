@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <ctype.h>
 
 Pila pilaIterativa(Pila pila, int eliminar);
 Pila pilaRecursiva(Pila pila, int eliminar);
