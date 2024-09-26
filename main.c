@@ -28,7 +28,7 @@ bool ingresarNumero(int *num) {
         if(esNegativo){
             resultado = -resultado;
         }
-        *num = resultado
+        *num = resultado;
         return true;
     }
     return false;
