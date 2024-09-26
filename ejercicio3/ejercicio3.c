@@ -9,7 +9,7 @@ void cargar_pila(Pila *pila){
     int num;
     char c;
 
-    printf("INGRESE UN NUMERO (UNA LETRA PARA SALIR): ");
+    printf("INGRESE UN NUMERO PARA CARGAR LA PILA (UNA LETRA PARA SALIR): ");
 
     while(scanf("%d", &num) == 1){
         TipoElemento elemento = te_crear(num);

@@ -13,7 +13,7 @@ int main()
     cargar_pila(&pila1);
     cargar_pila(&pila2);
 
-    printf("comparacion de pilas...\n");
+    printf("\nComparando las pilas...\n");
     comparacion(&pila1, &pila2);
 
     return 0;
