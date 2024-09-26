@@ -69,8 +69,8 @@ int main()
         p_mostrar(pila1);
 
         printf("\nPILA RESULTADO RECURSIVO\n");
-        pilaRecursiva(pila1, dato);
-
+        Pila pila_nueva = pilaRecursiva(pila1, dato);
+        p_mostrar(pila_nueva);
 
         printf("\nPILA ORIGINAL CONSERVADA\n");
         p_mostrar(pila1);
