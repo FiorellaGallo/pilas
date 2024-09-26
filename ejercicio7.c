@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <ctype.h>
 #include "tipo_elemento.h"
 #include "ejercicio7.h"
 #include "pilas.h"
@@ -51,8 +52,8 @@ Pila elementosComun(Pila pila1, Pila pila2){
     return pilaComunes;
 }
 
-// La complejidad algorÌtmica de la funciÛn "elementosComun"
-// es de orden cuadr·tico O(n x m) ya que los elementos de la
-// pila m se iterar·n n veces, es decir, por cada elemento n
+// La complejidad algor√≠tmica de la funci√≥n "elementosComun"
+// es de orden cuadr√°tico O(n x m) ya que los elementos de la
+// pila m se iterar√°n n veces, es decir, por cada elemento n
 // se recorren todos los elementos m.
 
