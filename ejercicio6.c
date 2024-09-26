@@ -35,9 +35,9 @@ Pila pilaIterativa(Pila pila, int eliminar){
     return pilaResultado;
 }
 
-// La complejidad algorítmica de la función "pilaIterativa" es de orden lineal
-// O(n) ya que se trata de "iterar" una pila una única vez, por lo que el tiempo
-// empleado para la solución del problema crece a medida que las pilas son de mayor tamaño.
+// La complejidad algorÃ­tmica de la funciÃ³n "pilaIterativa" es de orden lineal
+// O(n) ya que se trata de "iterar" una pila una Ãºnica vez, por lo que el tiempo
+// empleado para la soluciÃ³n del problema crece a medida que las pilas son de mayor tamaÃ±o.
 
 Pila pilaRecursiva(Pila pila, int eliminar){
     if(p_es_vacia(pila)){
@@ -52,12 +52,11 @@ Pila pilaRecursiva(Pila pila, int eliminar){
     }
 
     p_apilar(pila, elem);
-    p_mostrar(nueva_pila);
-
+    
     return nueva_pila;
 }
 
-// La complejidad algorítmica de la función "pilaRecursiva" es de orden lineal
+// La complejidad algorÃ­tmica de la funciÃ³n "pilaRecursiva" es de orden lineal
 // O(n) ya que cada elemento de la pila se recorre una vez para desapilar
 // y otra vez para apilarlo nuevamente. Aunque sean dos operaciones, se realizan sobre cada
-// elemento , por lo que la complejidad aumenta mientras la pila sea de mayor tamaño.
+// elemento , por lo que la complejidad aumenta mientras la pila sea de mayor tamaÃ±o.
