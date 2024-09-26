@@ -12,7 +12,7 @@ int validacion(){
     int i = 0;
 
     while(fgets(dato, sizeof(dato), stdin) == NULL){
-        printf("Por favor ingrese un numero: ");
+        printf("Por favor ingrese un número: ");
     };
 
     if(dato[i] == '-'){
@@ -20,7 +20,7 @@ int validacion(){
     };
 
     while(!isdigit(dato[i])){
-        printf("Ingrese unicamente un numero: ");
+        printf("Ingrese únicamente un número: ");
         i = 0;
         fgets(dato, sizeof(dato), stdin);
     };
@@ -58,29 +58,29 @@ int main(){
                 break;
             case 2:
                 //buscar
-                printf("Elemento que desea buscar.");
+                 printf("Valor del elemento que desea buscar.");
                 clave = validacion();
                 buscar(&pila, clave);
                 break;
             case 3:
                 //insertar
-                printf("Posicion del nuevo elemento.");
+                printf("Posición del nuevo elemento a insertar.");
                 int pos = validacion();
-                printf("Valor del nuevo elemento.");
+                printf("Valor del nuevo elemento a insertar: ");
                 int elemento = validacion();
                 insertar(&pila, pos, elemento);
                 break;
             case 4:
                 //eliminar
-                printf("Elemento a eliminar.");
+                printf("Valor del elemento que desea eliminar.");
                 clave= validacion();
                 eliminar(&pila, clave);
                 break;
             case 5:
                 //intercambiar
-                printf("Posicion 1.");
+                printf("Primera posición ordinal del valor que desea intercambiar.");
                 int pos1 = validacion();
-                printf("Posicion 2.");
+                printf("Segunda posición ordinal del valor que desea intercambiar: ");
                 int pos2 = validacion();
                 intercambiar(&pila, pos1, pos2);
                 break;
