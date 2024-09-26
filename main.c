@@ -7,11 +7,14 @@
 
 bool ingresarNumero(int *num) {
     char input[100];
+    int resultado = 0;
+    bool esNegativo = false;
 
     printf("Ingresa un numero para apilar en la pila o cualquier valor no numerico para finalizar la carga: ");
     if (fgets(input, sizeof(input), stdin) != NULL) {
         int i = 0;
         if (input[0] == '-') {
+            esNegativo = true;
             i++;
         }
 
@@ -19,8 +22,12 @@ bool ingresarNumero(int *num) {
             if (!isdigit(input[i])) {
                 return false;
             }
+            resultado = resultado * 10 + (input[i] - '0');
         }
-        *num = atoi(input);
+        if(esNegativo){
+            resultado = -resultado;
+        }
+        *num = resultado
         return true;
     }
     return false;
