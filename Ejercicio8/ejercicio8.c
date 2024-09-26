@@ -7,14 +7,14 @@
 
 Pila cantidadApariciones(Pila pila) {
     if(p_es_vacia(pila)) {
-        printf("Error. La pila est· vacÌa\n");
+        printf("Error. La pila est√° vac√≠a\n");
         return NULL;
     }
 
     Pila pilaAux = p_crear();
     TipoElemento elemAux;
     int valorMax = -1;
-    int valorMin = 0;
+    int valorMin = valorMax;
 
 
     //desapilar y guardar max y min
@@ -79,10 +79,10 @@ void mostrarApariciones(Pila pila){
 }
 
 
-// La complejidad algorÌtmica de la funcion cantidadApariciones es de O(n + m):
+// La complejidad algor√≠tmica de la funcion cantidadApariciones es de O(n + m):
 // La pila se desapila para encontrar el valor maximo y minimo, recorriendo cada elemento
 // una vez. Si la pila tiene n elemento, el tiempo que lleva desapilarlos es proporcional
 // a n: O(n)
-// Pero luego se trabaja con un array que tiene el tamaÒo del rango de valores de la pila,
+// Pero luego se trabaja con un array que tiene el tama√±o del rango de valores de la pila,
 // por lo que la complejidad es O(m), donde m es el rango de valores
 // Como resultado obtenemos que la complejidad es de O(n + m)
